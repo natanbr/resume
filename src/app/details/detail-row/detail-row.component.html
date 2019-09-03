@@ -1,0 +1,36 @@
+
+<mat-expansion-panel (afterExpand)="expand()"
+                     (afterCollapse)="collapsed()">
+  <mat-expansion-panel-header>
+    <mat-panel-title class="title">
+      <span>
+        <span class="title-year">{{ yearsString }}</span>
+        {{ experience.title.role }} @ {{ experience.title.company }}
+      </span>
+      <span [hidden]="!open" class="title-location">
+        <mat-icon class="title-location-icon">map</mat-icon> {{ experience.title.location }}
+      </span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <mat-panel-description>
+    <ng-container *ngFor="let description of experience.desciption">
+      {{ description }}<br>
+    </ng-container>
+  </mat-panel-description>
+
+  <mat-panel-description>
+    <mat-chip-list>
+      <mat-chip *ngFor="let skill of experience.skills" class="skill" selected [selectable]="'false'">
+        {{ skill }}
+      </mat-chip>
+    </mat-chip-list>
+  </mat-panel-description>
+
+  <!-- 
+    <mat-action-row>
+      <button mat-button
+      color="primary"
+      (click)="nextStep()">Next</button>
+    </mat-action-row> -->
+</mat-expansion-panel>

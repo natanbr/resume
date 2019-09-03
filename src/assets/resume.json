@@ -1,0 +1,80 @@
+{
+    "experience": [
+        {
+            "title": {
+                "year_from": "2018",
+                "year_to": "Current",
+                "role": "Front-end developer",
+                "company": "Blockchain Intelligence Group",
+                "location": "Vancuver, BC"
+            },
+            "desciption": [
+                "Developing web applications for ...."
+            ],
+            "skills": [
+                "Angular",
+                "RxJS",
+                "NgRx",
+                "Node.js",
+                "GitHub",
+                "JIRA"
+            ]
+        },
+        {
+            "title": {
+                "year_from": "2013",
+                "year_to": "2017",
+                "role": "developer",
+                "company": "XYZ",
+                "location": "..."
+            },
+            "desciption": [
+                "Developing ...."
+            ],
+            "skills": [
+                "Node.js",
+                "GitHub"
+            ]
+        },
+        {
+            "title": {
+                "year_from": "2010",
+                "year_to": "2013",
+                "role": "developer",
+                "company": "XYZ",
+                "location": "Far far away"
+            },
+            "desciption": [
+                "Developing ...."
+            ],
+            "skills": [
+                "Node.js",
+                "GitHub"
+            ]
+        }
+    ],
+    "study": [
+        {
+            "title": {
+                "year_from": "2010",
+                "year_to": "2014",
+                "faculty": "Software Engineer",
+                "degree": "B.Eng",
+                "institute": "XYZ",
+                "location": "xyz"
+            },
+            "desciption": [
+                "Bachelor of Engineering"
+            ],
+            "skills": [
+                "Software Engineer",
+                "Java",
+                "Algorithms",
+                "AI",
+                "Big Data",
+                "Disributed systems",
+                "Networks"
+            ]
+        }
+    ]
+}

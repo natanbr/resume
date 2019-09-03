@@ -44,3 +44,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/assets/resume_nathan.json
+src/assets/skils_nathan.json

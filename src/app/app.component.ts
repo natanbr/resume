@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatIconRegistry } from '@angular/material/icon';
 
 @Component({
   selector: 'cv-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
+
+  constructor(matIconRegistry: MatIconRegistry) {
+    matIconRegistry.addSvgIcon('intel-logo', '../assets/icons/inte.png');
+  }
 }

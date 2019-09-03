@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "port": 9876,
+            "url": "http://localhost:4200",
+            "runtimeArgs": [
+                "--user-data-dir",
+                "--disable-session-crashed-bubble",
+                "--remote-debugging-port=9876",
+                "--auto-open-devtools-for-tabs"
+            ],
+            "sourceMaps": true,
+            "smartStep": true,
+            "skipFiles": ["node_modules/*"],
+            "webRoot": "${workspaceRoot}/src",
+            "sourceMapPathOverrides": {
+                "webpack:///./*": "${workspaceRoot}/*"
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "name": "Software Architecture",
+            "value": 90
+        },
+        {
+            "name": "Angular",
+            "value": 90
+        },
+        {
+            "name": "Clean Code",
+            "value": 100
+        },
+        {
+            "name": "C#",
+            "value": 70
+        },
+        {
+            "name": "Work under pressure",
+            "value": 50
+        }
+    ]
+}

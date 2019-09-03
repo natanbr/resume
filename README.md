@@ -1,27 +1,22 @@
 # Resume
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+This project will generated online resume page.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Development 
 
-## Code scaffolding
+Run `ng serve` for a dev server
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Ideas:
+- [GoJs](https://gojs.net/latest/index.html?utm_source=carbonads&utm_medium=c260x200&utm_term=canvas&utm_content=sankey&utm_campaign=bsa-gojs) - Interactive JavaScript Diagrams for the Web
+- [Chart.js](https://github.com/chartjs/Chart.js)
+- [https://www.amcharts.com/](https://www.amcharts.com/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Resources
+- 4k support: [Optimizing for Large-Scale Displays](https://css-tricks.com/optimizing-large-scale-displays/)
+- how to [add bootstrap](https://www.yudiz.com/how-to-add-bootstrap-to-an-angular-project/) to angular project
+- bootstrap layout online [shoelace](http://shoelace.io/)
